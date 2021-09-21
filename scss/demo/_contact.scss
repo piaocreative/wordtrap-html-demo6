@@ -1,0 +1,101 @@
+/* ----------------------------------------------------------------
+
+	Contact.scss
+
+-----------------------------------------------------------------*/
+#contact {
+	input,textarea {
+		border-color: #d6d7d8;
+	}
+
+	label {
+		color: #7f7f7f;
+		font-size: 0.875rem;
+		font-family: 'Inter', sans-serif;
+		padding: 0.8rem 2.5rem;
+	}
+
+	button {
+		font-size: 0.75rem;
+		padding: 1.2rem;
+		font-family: 'Inter', sans-serif;
+	}
+
+	p {
+		font-size: 0.875rem;
+		line-height: 1.3rem;
+		color: #9f9f9f;
+	}
+}
+
+.contact {
+	a {
+		text-decoration: none;
+	}
+
+	p {
+		font-size: .875rem;
+		line-height: 1.4rem;
+		font-weight: 500;
+	}
+
+	.contact-email {
+		font-size: 2.25rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		color: $primary;
+		line-height: 4rem;
+		margin-bottom: 0;
+	}
+
+	.contact-title {
+		font-size: $h1-font-size;
+		font-family: $body-font;
+		font-weight: 800;
+		color: $secondary;
+		line-height: 4rem;
+	}
+
+	.contact-icons {
+		&.dark-contact a {
+			color: $theme-color;
+			font-size: 0.875rem;
+		}
+
+		&.light-contact {
+
+            a {
+                color: $theme-color;
+                font-size: 0.875rem;
+            }
+
+		}
+
+		li {
+			list-style: none;
+			margin-bottom: 0.3rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+
+			a {
+				font-family: $body-font;
+				line-height: 2rem;
+				
+				&:hover {
+					color: $primary;
+				}
+
+                span {
+                    font-size: 0.925rem;
+                    font-family: $heading-font;
+					font-weight: 500;
+                }
+			}
+
+            p {
+                color: $secondary;
+                font-size: 1rem;
+            }
+		}
+	}   
+}
