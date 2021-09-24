@@ -47,14 +47,8 @@
 
 	.navbar-brand {
 		img {
-			width: 100%;
+			width: 4.5rem;
 			margin-top: -1rem;
-
-			@include media-breakpoint-down(lg) {
-				width: 20%;
-				margin-top: 1rem;
-				margin-bottom: 1rem;
-			}
 		}
 	}
 }
