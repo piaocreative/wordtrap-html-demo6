@@ -42,13 +42,9 @@
 
 	// Widget - Social
 	&.widget-social {
-
 		.widget-content {
-
 			.social-icons {
-
 				padding: 0;
-				
 				list-style: none;
 				margin-top: -0.5rem;
 	
@@ -240,15 +236,7 @@
 
 			::placeholder {
 				color: #c3c3c3;
-				opacity: 1; /* Firefox */
-			}
-			  
-			:-ms-input-placeholder { /* Internet Explorer 10-11 */
-			color: #c3c3c3;
-			}
-			
-			::-ms-input-placeholder { /* Microsoft Edge */
-			color: #c3c3c3;
+				opacity: 1;
 			}
 		}
 	}

@@ -67,10 +67,6 @@ a {
 		border-radius: 2rem;
 		display: inline-block;
 	}
-
-	@include media-breakpoint-down(sm) {
-		margin-bottom: 1rem;
-	}
 }
 
 
