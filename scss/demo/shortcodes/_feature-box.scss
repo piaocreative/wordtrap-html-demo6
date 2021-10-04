@@ -10,21 +10,30 @@
 -----------------------------------------------------------------*/
 
 .fbox {
-	padding: 2rem;
+	display: flex;
+	align-items: center;
+	padding: 1.875rem;
 
 	.fbox-icon {
-		min-width: 5rem;
+		flex: 0 0 auto;
+		height: 6.875rem;
+		width: 6.875rem;
 		text-align: center;
+		margin-right: 1.5rem;		
 		
 		i {
-			font-size: 1.5rem;
+			font-size: 3rem;
+			line-height: 6.875rem;
 		}
 	}
 
-	p {
-		color: #929699;
-		line-height: 1.2rem;
+	.fbox-header {
+		p {
+			color: #929699;
+		}
 	}
+
+	
 
 	@include media-breakpoint-down(lg) {
 		padding: 1rem;

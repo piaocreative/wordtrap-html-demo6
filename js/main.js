@@ -45,16 +45,41 @@ $( document ).ready( function() {
         });
     } 
 
-    if ( $( '.posts' ).length ) {
-        $('.posts').slick({
+    if ( $( '.posts-slider' ).length ) {
+        $('.posts-slider').slick({
+            infinite: true,
             dots: false,
             arrows: true,
             speed: 300,
             slidesToShow: 2,
             slidesToScroll: 1,
+            prevArrow: $('.post-prev-arrow'),
+            nextArrow: $('.post-next-arrow'),
             responsive: [
               {
-                breakpoint: 1200,
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }
+            ]
+        });
+    }    
+
+    if ( $( '.products-slider' ).length ) {
+        $('.products-slider').slick({
+            infinite: true,
+            dots: false,
+            arrows: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            prevArrow: $('.product-prev-arrow'),
+            nextArrow: $('.product-next-arrow'),
+            responsive: [
+              {
+                breakpoint: 991,
                 settings: {
                   slidesToShow: 2,
                   slidesToScroll: 1,
@@ -70,6 +95,6 @@ $( document ).ready( function() {
               }
             ]
         });
-    }    
+    }
 
 } );

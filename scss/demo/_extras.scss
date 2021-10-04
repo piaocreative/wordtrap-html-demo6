@@ -10,44 +10,7 @@
 	Extra Styles
 -----------------------------------------------------------------*/
 
-.shipping-banner {
-	position: absolute;
-	left: 4.375rem;
-	top: 5.625rem;	
-}
-
-.link-icon {
-	background-image: url(../images/icons/link.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	display: inline-block;
-	width: 2.5625rem;
-	height: 2.5625rem;
-
-	&.black {
-		background-image: url(../images/icons/link_black.png);
-	}
-}
-
-a {
-	.link-icon {
-		@include transition(all 0.3s ease-in-out);
-	}
-
-	&:hover {
-		.link-icon {
-			@include translateX(1rem);
-		}
-	}	
-}
-
 .about {
-	p {
-		font-size: 0.875rem;
-		font-family: $body-font;
-		line-height: 1.5rem;
-	}
-
 	.about-banner-content {
 		h4 {
 			font-size: 1.325rem;
@@ -59,58 +22,21 @@ a {
 
 .about-us-link {
 	a {
-		padding: 0.5rem 4rem;
-		background-color: $theme-color;
 		color: white;
-		text-decoration: none;
-		font-size: .75rem;
 		border-radius: 2rem;
-		display: inline-block;
 	}
 }
-
 
 .about-content {
 	h3 {
-		font-size: 2.25rem;
+		font-size: 2.8125rem;
+		font-weight: 500;
+		line-height: 3.4375rem;
 	}
 
 	p {
-		font-size: 0.75rem;
 		color: #9c9c9f;
-		line-height: 1.3rem;
+		font-size: 0.875rem;		
+		line-height: 1.3125rem;
 	}
-
-	@include media-breakpoint-down(lg) {
-		margin-top: 1rem !important;
-	}
-}
-
-.carousel-indicator {
-	margin-top: 4rem;
-
-	li {
-		list-style: none;
-		padding: 0rem;
-
-		i {
-			font-size: 0.5rem;
-			color: #d6d7d8;
-		}
-	}
-
-	@include media-breakpoint-down(sm) {
-		margin-top: 2rem;
-	}
-}
-
-.go-store-link {
-	text-decoration: none;
-	background-color: $theme-color;
-	font-size: 0.75rem;
-	color: $white;
-	padding: 1rem 3.5rem;
-    border-radius: 2rem;
-    font-weight: 600;
-	font-family: $body-font;
 }

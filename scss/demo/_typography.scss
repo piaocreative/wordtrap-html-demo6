@@ -75,7 +75,6 @@ html {
 }
 
 body {
-	line-height: 1.875rem;
 	color: $body-color;
 	font-size: $font-size-base;
 	font-family: $body-font;
@@ -130,5 +129,7 @@ i {
 }
 
 a {
+	text-decoration: none;
+
 	@include transition(color 0.3s ease-in-out);
 }

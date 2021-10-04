@@ -42,17 +42,17 @@
 
         <!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header">
+		<header id="header">
 
             <div id="header-wrap">
 
-                <nav class="navbar navbar-expand-xl navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light">
 
                     <div class="container">
 
                         <!-- Logo
                         ============================================= -->
-                        <a href="index.html" class="navbar-brand me-5" data-dark-logo="images/logo.png">
+                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
                             <img src="images/logo.png" alt="Saler Logo">
                         </a>
                         
@@ -64,53 +64,44 @@
                         
                         <!-- Navbar Collapse
                         ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-between">
+                        <div id="navbarCollapse" class="collapse navbar-collapse">
 
                             <!-- Primary Navigation
                             ============================================= -->
-                            <nav id="primary-menu" class="mt-2">
-
-                                <ul class="navbar-nav gap-2 justify-content-between">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Home</a>
-                                    </li>                                  
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Services</a>
-                                    </li>                                    
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Fruits</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link text-primary"><span class="me-2">%</span> Stack</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
+                            <ul class="navbar-nav" id="primary-menu">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Services</a>
+                                </li>                                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Fruits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><span class="me-2">%</span> Stack</a>
+                                </li>
+                            </ul><!-- #primary-menu -->
 
                             <!-- Top Buttons
                             ============================================= -->
-                            <div id="top-btns">
-                                
-                                <ul class="navbar-nav flex-row gap-2 align-items-center">
-                                    <li class="nav-item">
-                                        <span href="#" class="text-primary me-4 body-font fw-semi-bold">+1 234 56 789 </span>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link"><i class="fab fa-bitbucket"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-user"></i></a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- #top-btns -->
+                            <ul class="navbar-nav flex-row ms-lg-auto align-items-center" id="top-btns">
+                                <li class="nav-item">
+                                    <a href="call:123456789;" class="text-primary me-4 body-font fw-semi-bold">+1 234 56 789</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="fab fa-bitbucket"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-user"></i></a>
+                                </li>
+                            </ul><!-- #top-btns -->
 
                         </div><!-- Navbar Collapse -->
 
@@ -128,29 +119,31 @@
 
             <div class="content-wrap">
 
-                <!-- error side
+                <!-- Error
                 ============================================= -->
-                <div class="section border-top">
-                    <div class="error-404">
-    
-                        <div class="error-banner">
-                            <img src="./images/404/404.png" class="img-full">
-                        </div>
-    
-                        <div class="error-content d-flex justify-content-center align-items-end">
-                            <div class="py-7">
-                                <h4 class="text-secondary text-center heading-font fw-semi-bold">
-                                    Oops ... I think you dropped the watermelon.<br>
-                                    Try to quickly return to the <a href="#">home page</a>
+                <div class="border-top" id="error-404">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col text-center">
+
+                                <img src="./images/404/404.png" class="img-fluid w-100">
+
+                                <h4 class="text-secondary">
+                                    Oops ... I think you dropped the watermelon.<br>Try to quickly return to the <a href="#" class="text-primary">home page</a>
                                 </h4>
-                                <div class="text-center mt-4">
-                                    <a class="heading-font text-white btn btn-primary text-uppercase">Go to Home</a>
-                                </div> 
+
+                                <a class="btn btn-primary text-uppercase text-white mt-4">Go to Home</a>
+
                             </div>
+
                         </div>
-    
-                    </div><!-- error -->
-                </div>
+
+                    </div>
+
+                </div><!-- Error -->
 
             </div>
 
@@ -159,156 +152,168 @@
         <!-- Footer
 		============================================= -->
 		<footer id="footer">
-            
+
             <div class="container">
 
-            <!-- Footer Header
-            ============================================= -->
-            <div id="footer-top">
+                <!-- Footer Top
+                ============================================= -->
+                <div id="footer-top">
 
-                <div class="row">
+                    <div class="row">
 
-                    <div class="col-lg-5">
+                        <div class="col-md-6 col-lg-5">
 
-                        <div class="widget widget-subscribe text-center text-lg-start">
-                            <div class="widget-content">
-                                <h2 class="text-white h1 mb-2 heading-font fw-normal">Subscribe To Our Newsletter</h2>
-                                <p>Get all the latest information on Events, Sales and Offers.</p>
-                            </div>                                    
+                            <h2 class="text-white mb-0 heading-font">Subscribe To Our Newsletter</h2>
+                            <p class="mb-0">Get all the latest information on Events, Sales and Offers.</p>
+
                         </div>
 
-                    </div>
+                        <div class="col-md-6 offset-lg-1">
 
-                    <div class="offset-xl-1 col-lg-6">
-
-                        <div class="widget widget-subscribe mt-3">
-                            <div class="widget-content">
-                                <form id="widget-subscribe-form" action="#" method="post">
-                                    <div class="input-group">
-                                        <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email bg-dark" placeholder="Enter your Email">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary heading-font text-white text-uppercase" type="submit">Subscribe</button>
+                            <div class="widget widget-subscribe mt-3">
+                                <div class="widget-content">
+                                    <form id="widget-subscribe-form" action="#" method="post">
+                                        <div class="input-group">
+                                            <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email bg-dark" placeholder="Enter your Email">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary heading-font text-white text-uppercase" type="submit">Subscribe</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>                                    
-                        </div>
-
-                    </div>
-                    
-                </div>
-
-            </div><!-- Footer Header -->
-
-            <!-- Footer Main
-		    ============================================= -->
-            <div id="footer-main">
-
-                <div class="row">
-
-                    <div class="col-lg-1 text-center text-lg-start">
-
-                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
-                            <img src="images/logo.png" alt="Saler Logo">
-                        </a>
-
-                    </div>
-
-                    <div class="col-md-6 col-xl-2">
-
-                        <div class="widget widget-links text-center text-lg-start">
-                            <h5 class="widget-title text-white">Customer Services</h5>
-                            <div class="widget-content">
-                                <ul class="list-group mb-2">
-                                    <li><a href="#">Help & FAQs</a></li>
-                                    <li><a href="#">Order Tracking</a></li>
-                                    <li><a href="#">Shipping & Delivery</a></li>
-                                    <li><a href="#">Orders History</a></li>
-                                    <li><a href="#">Advanced Search</a></li>
-                                    <li><a href="#">Login</a></li>
-                                </ul>
-                            </div>                            
-                        </div>
-
-                    </div>
-                    
-                    <div class="col-md-6 col-xl-2">
-
-                        <div class="widget widget-links ps-4 text-center text-lg-start">
-                            <h5 class="widget-title text-white">About Us</h5>
-                            <div class="widget-content">
-                                <ul class="list-group mb-2">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Our Stores</a></li>
-                                    <li><a href="#">Cooperate sales</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                </ul>
-                            </div>                            
-                        </div>
-
-                    </div>
-
-                    <div class="col-xl-2">
-
-                        <div class="widget widget-custom-html text-center text-lg-start">
-                            <h5 class="widget-title text-white">More Information</h5>
-                            <div class="widget-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrice</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="offset-xl-1 col-md-6 col-lg-2">
-
-                        <div class="widget widget-social mb-lg-0 text-center text-lg-start">
-                            <p class="widget-title">Social Network</p>
-                            <div class="widget-content">
-                                <ul class="social-icons d-flex align-items-center justify-content-center justify-content-lg-start">
-                                    <li><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" target="_blank" title="Linkedin"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-
-                        <div class="widget widget-payment mb-lg-0 text-center text-lg-start">
-                            <p class="widget-title">Our payment</p>
-                            <div class="widget-content">
-                                <div class="payments d-flex justify-content-center justify-content-lg-start">
-                                    <span class="payment-icon"><img src="images/payments/visa.png" alt="Visa"></span>
-                                    <span class="payment-icon"><img src="images/payments/mastercard.png" alt="Mastercard"></span>
-                                    <span class="payment-icon"><img src="images/payments/paypal.png" alt="Paypal"></span>
+                                    </form>
                                 </div>                                    
                             </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div><!-- Footer Top -->
+
+                <!-- Footer Main
+                ============================================= -->
+                <div id="footer-main">
+
+                    <div class="row">
+
+                        <div class="col-xl-1">
+
+                            <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                                <img src="images/logo.png" alt="Saler Logo">
+                            </a>
+
+                        </div>
+
+                        <div class="col-sm-4 col-xl-2 pt-3 pt-xl-0">
+
+                            <div class="widget widget-links">
+                                <h5 class="widget-title text-white">Customer Services</h5>
+                                <div class="widget-content">
+                                    <ul class="list-group mb-2">
+                                        <li><a href="#">Help & FAQs</a></li>
+                                        <li><a href="#">Order Tracking</a></li>
+                                        <li><a href="#">Shipping & Delivery</a></li>
+                                        <li><a href="#">Orders History</a></li>
+                                        <li><a href="#">Advanced Search</a></li>
+                                        <li><a href="#">Login</a></li>
+                                    </ul>
+                                </div>                            
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-sm-4 col-xl-2 pt-3 pt-xl-0">
+
+                            <div class="widget widget-links">
+                                <h5 class="widget-title text-white">About Us</h5>
+                                <div class="widget-content">
+                                    <ul class="list-group mb-2">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Our Stores</a></li>
+                                        <li><a href="#">Cooperate sales</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                    </ul>
+                                </div>                            
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4 col-xl-2 pt-3 pt-xl-0">
+
+                            <div class="widget widget-custom-html">
+                                <h5 class="widget-title text-white">More Information</h5>
+                                <div class="widget-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrice</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="offset-xl-1 col-sm-6 col-xl-2 pt-3 pt-xl-0">
+
+                            <div class="widget widget-social mb-lg-0">
+                                <p class="widget-title">Social Network</p>
+                                <div class="widget-content">
+                                    <ul class="social-icons d-flex align-items-center">
+                                        <li><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" target="_blank" title="Linkedin"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6 col-xl-2 pt-3 pt-xl-0">
+
+                            <div class="widget widget-payment mb-lg-0">
+                                <p class="widget-title">Our payment</p>
+                                <div class="widget-content">
+                                    <div class="payments d-flex">
+                                        <span class="payment-icon"><img src="images/payments/visa.png" alt="Visa"></span>
+                                        <span class="payment-icon"><img src="images/payments/mastercard.png" alt="Mastercard"></span>
+                                        <span class="payment-icon"><img src="images/payments/paypal.png" alt="Paypal"></span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>            
+
+                </div><!-- Footer Main -->
+                
+                <!-- Footer bottom
+                ============================================= -->
+                <div id="footer-bottom">
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <div id="copyrights" class="d-flex justify-content-between">
+                                <span>Copyrights &copy; 2021</span>
+                                <span>All Rights Reserved</span>
+                            </div>
+
                         </div>
 
                     </div>
 
-                </div>
-
-            </div><!-- #footer-main -->
-            
-            <!-- Footer bottom
-            ============================================= -->
-            <div id="footer-bottom">
-
-                <div id="copyrights" class="py-3 d-flex justify-content-between">
-                    <span>Copyrights &copy; 2021</span>
-                    <span>All Rights Reserved</span>
-                </div>
-
-            </div><!-- #footer-bottom -->
+                </div><!-- Footer Bottom -->
 
             </div>
 
-        </footer><!-- #footer -->
+        </footer><!-- Footer -->
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>

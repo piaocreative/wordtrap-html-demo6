@@ -3,57 +3,11 @@
 	404.scss
 
 -----------------------------------------------------------------*/
-.error-404 {
+#error-404 {
+    padding-bottom: 10.875rem;
     position: relative;
 
-    .error-content {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 100%;
-
-        h4 {
-            font-weight: 500;
-        }
-    
-        p {
-            line-height: 2rem;
-        }
-    
-        a {
-            text-decoration: none;
-            
-            &.btn {
-                font-size: 0.75rem;
-                font-family: 'Inter', sans-serif;
-            }
-        }
-    }
-
-    @include media-breakpoint-down(lg) {
-        .error-banner {
-            img {
-                height: 50%;
-            }
-        }
-
-        .error-content {
-            top: 3rem;
-        }
-    }
-
-    @include media-breakpoint-down(sm) {
-        .error-banner {
-            margin-bottom: 4rem;
-            
-            img {
-                height: 30%;
-            }
-        }
-
-        .error-content {
-            top: 8rem;
-        }
+    h4 {
+        font-weight: 500;
     }
 }
