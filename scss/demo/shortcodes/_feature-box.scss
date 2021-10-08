@@ -31,11 +31,5 @@
 		p {
 			color: #929699;
 		}
-	}
-
-	
-
-	@include media-breakpoint-down(lg) {
-		padding: 1rem;
-	}
+	}	
 }

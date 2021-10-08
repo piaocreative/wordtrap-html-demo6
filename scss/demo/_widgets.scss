@@ -96,21 +96,6 @@
 				}
 			}
 		}
-
-		@include media-breakpoint-down(lg) {
-			padding: 0;
-		}
-
-		@include media-breakpoint-down(md) {
-			.widget-content {
-				justify-content: space-between;
-			}
-
-			ul {
-				width: auto;
-				margin: auto;
-			}
-		}
 	}
 
 	// Widget - Payments
